@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE CHALLENGE</title>
+</head>
+<body>
+    <main class="mt-5">
+    <div class="container">
+      <div class="login-container">
+        <img src="img/login.png" alt="Login" class="login-image" style="max-width: 100%;">
+        <h3 class="text-center">Formulario de registro</h3>
+        <form class="login-form" onsubmit="return false;">
+          <div class="mb-3">
+            <label for="username" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required placeholder="Introduce tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" required placeholder="Introduce tu apellido">
+          </div>
+          <div class="mb-3">
+            <label for="fecha_nacimiento" class="form-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="fechaNac" required placeholder="Introduce tu fecha de nacimiento">
+          </div>
+          <button class="login-button" onclick="authenticate()">Ingresar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

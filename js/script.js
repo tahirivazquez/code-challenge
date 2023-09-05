@@ -1,7 +1,7 @@
 function enviarForm() {
-    const nombre = document.getElementById('nombre');
-    const apellido = document.getElementById('apellido');
-    const fechaNac = document.getElementById('fechaNac');
+    const nombre = document.getElementById('nombre').value;
+    const apellido = document.getElementById('apellido').value;
+    const fechaNac = document.getElementById('fechaNac').value;
 
     const datos = {
         nombre: nombre,

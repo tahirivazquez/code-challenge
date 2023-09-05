@@ -25,8 +25,8 @@ function enviarForm() {
   .catch(error => {
     console.error('Error al enviar los datos:', error);
   });
-}
+};
 
 function authenticate() {
-  enviarDatos();
-}
+  enviarForm();
+};

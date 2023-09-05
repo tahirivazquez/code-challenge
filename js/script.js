@@ -23,10 +23,11 @@ function enviarForm() {
     console.log('Respuesta del servidor:', data);
   })
   .catch(error => {
-    console.error('Error al enviar los datos:', error);
+    console.error('Ha habido un error:', error);
   });
 };
 
 function authenticate() {
   enviarForm();
 };
+
